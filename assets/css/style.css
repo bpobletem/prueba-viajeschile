@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container{
+    max-width: 95vw;
+    margin: auto;
+}
+
+.highlight-section{
+    gap:15px;
+    margin: auto;
+}
