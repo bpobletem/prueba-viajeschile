@@ -4,14 +4,67 @@ body {
     box-sizing: border-box;
     background-color: #000000;
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.divider {
+    border-top: solid #2e2e2e 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .container{
-    max-width: 95vw;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 3.5rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.h-section{
+    margin-top: 3.5rem;
+    gap:15px;
     margin: auto;
 }
 
-.highlight-section{
-    gap:15px;
-    margin: auto;
+.about-header{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #00abc9;
+}
+
+.card, .card-title {
+    background-color: #00abc9;
+    font-weight: 300;
+}
+
+.btn-info{
+    background-color: #00abc9;
+}
+
+footer {
+    background-color: #00abc9;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+.container-footer {
+    max-width: 75vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
