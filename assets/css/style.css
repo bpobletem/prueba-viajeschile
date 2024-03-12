@@ -10,6 +10,7 @@ body {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link{
     color: #ffffff;
+    text-shadow: 1px 1px 2px black;
 }
 
 .divider {
